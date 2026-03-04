@@ -1,6 +1,5 @@
 # <font size="5">Advanced-Communication-and-Design-Lab-3</font>
 
-# <font size="3">Advanced Communication Systems and Design: Experiments 11-20</font>
 
 ## 📌 Introduction
 This digital repository serves as a technical portfolio for a series of advanced experiments in electronic communications. Thisspans from foundational digital conversion techniques like **PCM** to complex modulation schemes such as **QPSK** and **Spread Spectrum**. Each entry focuses on the practical application of communication theory using standardized laboratory hardware and real-time signal analysis.
@@ -49,6 +48,4 @@ To maintain consistency across the portfolio, each experiment folder contains a 
 | **Results & Discussion** | Analytical breakdown of the observed waveforms and data points. |
 | **Reflection** | Summary of core technical takeaways and personal learning insights. |
 
----
-**Author:** Catherine Mae D. Magsakay  
-**Course:** Advanced Communication Systems and Design
+
