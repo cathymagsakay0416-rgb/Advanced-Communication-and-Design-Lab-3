@@ -49,12 +49,10 @@
 15. Set the **Tuneable LPF** module's **Gain** to the middle and turn the **Cut-off Frequency Adjust** fully anti-clockwise.
 
 ### Output
+<video src="[https://github.com/user-attachments/assets/c3aab2bd-853b-476e-81cc-0b1177f33441]" width="400" controls>
 
-https://github.com/user-attachments/assets/c3aab2bd-853b-476e-81cc-0b1177f33441
-
-
-17. Connect the output of the **Sample-and-Hold** circuit to the **IN** of the **Tuneable LPF**.
-18. Slowly turn the **Cut-off Frequency** control clockwise until the $2kHz$ sine wave is reconstructed on the oscilloscope.
+16. Connect the output of the **Sample-and-Hold** circuit to the **IN** of the **Tuneable LPF**. 
+17. Slowly turn the **Cut-off Frequency** control clockwise until the $2kHz$ sine wave is reconstructed on the oscilloscope.
 
 ### Block Diagram
 
