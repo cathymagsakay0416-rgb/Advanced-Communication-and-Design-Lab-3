@@ -30,6 +30,8 @@
 8. **Natural Sampling:** Observe the waveform where the pulses follow the shape of the message signal.
 9. **Sample-and-Hold:** Modify the set-up to use the S/H circuit (Figure 4) and observe the resulting waveform.
 
+### Block Diagram
+
 ![Part A Block Diagram](./docs/Part%20A%20Block%20Diagram.png)
 
 ### Part B: Sampling Speech
@@ -38,13 +40,19 @@
 12. Set the oscilloscope **Timebase** to **2ms/div**.
 13. Talk, sing, or hum while watching the display to see the sampled representation of a complex signal.
 
+### Block Diagram
+
+![Part B Block Diagram](./docs/Paart%20B%20Block%20Diagram.png)
+
 ### Part C: Reconstructing a Sampled Message
 14. Return the **Timebase** to **0.1ms/div** and reconnect the $2kHz$ SINE message.
 15. Set the **Tuneable LPF** module's **Gain** to the middle and turn the **Cut-off Frequency Adjust** fully anti-clockwise.
 16. Connect the output of the **Sample-and-Hold** circuit to the **IN** of the **Tuneable LPF**.
 17. Slowly turn the **Cut-off Frequency** control clockwise until the $2kHz$ sine wave is reconstructed on the oscilloscope.
 
+### Block Diagram
 
+![Part C Block Diagram](./docs/Part%20C%20Block%20Diagram.png)
 
 ### Part D: Investigating Aliasing
 18. Locate the **VCO** module, set **Frequency Adjust** fully clockwise, and set **Range** to **LO**.
@@ -52,6 +60,9 @@
 20. Monitor the reconstructed signal on **CH2** while slowly decreasing the VCO frequency.
 21. Observe the distortion (aliasing) that occurs as the sampling rate drops below the Nyquist rate.
 
+### Block Diagram
+
+![Part D Block Diagram](./docs/Part%20D%20Block%20Diagram.png)
 ---
 
 ## 📉 Results and Discussion
