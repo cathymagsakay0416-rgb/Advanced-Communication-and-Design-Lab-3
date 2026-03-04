@@ -5,7 +5,7 @@
 * To investigate the process of **sampling**, **quantisation**, and **encoding** using the Emona Telecoms-Trainer 101.
 * To identify the relationship between input analog voltages and their corresponding **8-bit binary numbers**.
 * To examine the effect of **quantisation error** and the role of the **Frame Synchronisation (FS)** signal.
-
+<img src="Expt%2012/images/FIGURE%205%20-%20Page%2012-7.jpg" alt="Figure 5" width="600">
 ---
 
 ## 🛠 Materials and Components Used
