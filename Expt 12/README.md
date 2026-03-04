@@ -26,19 +26,19 @@
 3. Locate the **PCM Encoder** module and set its **Mode** switch to the **PCM** position.
 4. Connect the set-up where the PCM Encoder module is clocked by the Master Signals module’s **8kHz DIGITAL** output and its analog input is connected to **0V DC**.
 ### Output
-![Figure 3](Expt%2012/images/PAGE%2012-5%20FIGURE%203.JPG)
+![Figure 3](Expt12/images/PAGE%2012-5%20FIGURE%203.JPG)
 5. Adjust the scope's **Timebase** control to view three pulses of the PCM Encoder module's **FS** output.
 6. Set the scope's **Slope** control to the **"-"** position to start the sweep when the FS signal goes from high to low.
 7. Adjust the scope’s **Horizontal Position** control so that the start of the trace aligns with the left-most vertical line on the screen.
 8. Set the scope's **Timebase** control to the **0.1ms/div** position.
 9. Adjust the scope's **Variable Sweep** control until the FS signal matches the required reference.
 ### Output
-![Figure 4](Expt%2012/images/PAGE%2012-6%20FIG%204.JPG)
+![Figure 4](Expt12/images/PAGE%2012-6%20FIG%204.JPG)
 10. Set the scope's **Mode** control to the **DUAL** position to view the PCM Encoder module’s **CLK** input as well as its **FS** output.
 11. Draw the two waveforms to scale, leaving enough room for a third digital signal.
 12. Connect the scope's **Channel 2** input to the PCM Encoder module's output.
 ### Output
-![Figure 5](Expt 12/images/FIGURE 5 - Page 12-7.jpg)
+![Figure 5](Expt12/images/FIGURE%205%20-%20Page%2012-7.jpg)
 13. Draw the resulting waveform (10 bits of data) to scale on the graph paper.
 
 ### Block Diagram
@@ -53,7 +53,7 @@
 16. Set the scope's **Trigger Source Coupling** control to the **HF REJ** position.
 17. Modify the set-up to include the **Variable DCV** module to change the DC voltage on the PCM Encoder module's input.
 ### Output
-![Figure 7](Expt%2012/images/FIGURE%207%20-%20Page%2012-10.jpg)
+![Figure 7](Expt12/images/FIGURE%207%20-%20Page%2012-10.jpg)
 18. Set the scope's **Channel 1 Vertical Attenuation** control to the **1V/div** position.
 19. Set the scope's **Channel 1 Input Coupling** control to the **GND** position.
 20. Use the scope's **Channel 1 Vertical Position** control to align the trace with a horizontal line (zero volt reference).
@@ -71,7 +71,7 @@
 32. Measure and record this value in Table 1.
 
 ### Output
-![Figure 7](Expt%2012/images/FIGURE%207%20-%20Page%2012-10.jpg)
+![Figure 7](Expt12/images/FIGURE%207%20-%20Page%2012-10.jpg)
 ### Block Diagram
 ![Part B Block Diagram](./docs/FIGURE%208.JPG)
 
@@ -93,7 +93,8 @@
 43. Return the scope's **Variable Sweep** control to the locked position.
     
 ### Output
-![Figure 9](Expt%2012/images/FIGURE%209%20-%20Page%2012-16.JPG)
+
+![Figure 9](Expt12/images/FIGURE%209%20-%20Page%2012-16.JPG)
 ---
 
 ## 📉 Results and Discussion
