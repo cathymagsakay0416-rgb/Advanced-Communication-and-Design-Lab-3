@@ -25,8 +25,10 @@
 2. Set up the scope per the instructions in Experiment 1. Ensure that the **Trigger Source** is set to **CH1** and **Mode** is set to **CH1**.
 3. Locate the **PCM Encoder** module and set its **Mode** switch to the **PCM** position.
 4. Connect the set-up where the PCM Encoder module is clocked by the Master Signals module’s **8kHz DIGITAL** output and its analog input is connected to **0V DC**.
+
 ### Output
 <img src="./images/PAGE%2012-5%20FIGURE%203.JPG" alt="Figure 3" width="600">
+
 5. Adjust the scope's **Timebase** control to view three pulses of the PCM Encoder module's **FS** output.
 6. Set the scope's **Slope** control to the **"-"** position to start the sweep when the FS signal goes from high to low.
 7. Adjust the scope’s **Horizontal Position** control so that the start of the trace aligns with the left-most vertical line on the screen.
@@ -35,6 +37,7 @@
 
 ### Output
 <img src="./images/PAGE%2012-6%20FIG%204.JPG" alt="Figure 4" width="600">
+
 10. Set the scope's **Mode** control to the **DUAL** position to view the PCM Encoder module’s **CLK** input as well as its **FS** output.
 11. Draw the two waveforms to scale, leaving enough room for a third digital signal.
 12. Connect the scope's **Channel 2** input to the PCM Encoder module's output.
@@ -55,8 +58,10 @@
 15. Set the scope's **Trigger Source** control to the **EXT** position.
 16. Set the scope's **Trigger Source Coupling** control to the **HF REJ** position.
 17. Modify the set-up to include the **Variable DCV** module to change the DC voltage on the PCM Encoder module's input.
+
 ### Output
 <img src="./images/FIGURE%207%20-%20Page%2012-10.jpg" alt="Figure 7" width="600">
+
 18. Set the scope's **Channel 1 Vertical Attenuation** control to the **1V/div** position.
 19. Set the scope's **Channel 1 Input Coupling** control to the **GND** position.
 20. Use the scope's **Channel 1 Vertical Position** control to align the trace with a horizontal line (zero volt reference).
@@ -88,8 +93,10 @@
 39. Disassemble the current set-up.
 40. Connect the setup where the VCO clocks the PCM Encoder and a sinewave is applied to the input.
 41. Set the scope's **Timebase** control to the **50µs/div** position.
+
 ### Output
 <img src="./images/FIGURE%209%20-%20Page%2012-16.JPG" alt="Figure 9" width="600">
+
 42. Watch the PCM Encoder module's **PCM DATA** output change continuously on the scope.
 43. Return the scope's **Variable Sweep** control to the locked position.
     
