@@ -38,7 +38,7 @@
 11. Draw the two waveforms to scale, leaving enough room for a third digital signal.
 12. Connect the scope's **Channel 2** input to the PCM Encoder module's output.
 ### Output
-![Figure 5](Expt%2012/images/FIGURE%205%20-%20Page%2012-7.jpg)
+![Figure 5](Expt 12/images/FIGURE 5 - Page 12-7.jpg)
 13. Draw the resulting waveform (10 bits of data) to scale on the graph paper.
 
 ### Block Diagram
