@@ -51,11 +51,25 @@ Imagine the difficulty a digital receiver circuit such as a PCM decoder would ha
 6. Locate the **Variable DCV** module and set its **VDC** control to about the middle of its travel.
 7. Locate the **PCM Encoder** module and set its **Mode** switch to the **PCM** position.
 8. Connect the set-up where the PCM Encoder module’s **PCM DATA** output is connected to the PCM Decoder module’s **PCM DATA** input.
-9. Vary the **Variable DCV** module’s **VDC** control left and right.
 
+### Block Diagram
+<img src="./Expt-14/docs/Figure%204%20(1).JPG" alt="Figure 4: PCM Encoding/Decoding Block Diagram" width="600">
+
+### Ouput
+<img src="./Expt-14/images/FIGURE%204.JPG" alt="Figure 4: Initial PCM Setup" width="600">
+
+9. Vary the **Variable DCV** module’s **VDC** control left and right.
 10. Locate the **Tuneable Low-pass Filter** module and set its **Gain** control to about the middle of its travel.
 11. Turn the **Tuneable Low-pass Filter** module’s **Cut-off Frequency Adjust** control fully clockwise.
 12. Modify the set-up so that the low-pass filter is inserted between the PCM Encoder and PCM Decoder.
+
+### Block Diagram
+<img src="./Expt-14/docs/Figure%206.JPG" alt="Figure 6: Bandwidth Limited Channel Model" width="600">
+
+### Output
+https://github.com/user-attachments/assets/c2059e15-49ad-40dc-b2a1-22fe10070231
+
+
 13. Vary the **Variable DCV** module’s **VDC** control left and right while slowly turning the **Cut-off Frequency Adjust** control anti-clockwise.
 14. Stop turning once the PCM Decoder module’s output becomes corrupted.
 
@@ -71,6 +85,13 @@ Imagine the difficulty a digital receiver circuit such as a PCM decoder would ha
 20. Turn the **Tuneable Low-pass Filter** module's **Cut-off Frequency Adjust** control fully clockwise.
 21. Locate the **Sequence Generator** module and set its dip-switches to 00.
 22. Connect the set-up where the Sequence Generator output passes through the Tuneable Low-pass Filter.
+
+### Block Diagram
+<img src="./Expt-14/docs/Figure%208.JPG" alt="Figure 8: Digital Signal Modeling Diagram" width="600">
+
+### Output
+<img src="./Expt-14/docs/Figure%208.JPG" alt="Figure 8: Digital Signal Modeling Diagram" width="600">
+
 23. Set the scope's **Timebase** control to the **1ms/div** position to view about twenty bits of data.
 24. Set the scope's **Mode** control to the **DUAL** position and compare the signals.
 25. Turn the **Cut-off Frequency Adjust** control anti-clockwise to narrow the bandwidth and observe the signal shape.
