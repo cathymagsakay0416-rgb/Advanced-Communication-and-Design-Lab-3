@@ -47,6 +47,7 @@ The PCM decoder's clock frequency is crucial. If it is not the same as the encod
 
 ### Output
 <img src="./images/FIGURE 1 - Page 13-14.jpg" width="600" alt="Part A Setup">
+
 5. Set the scope's **Slope** control to the "-" position.
 6. Adjust the scope's **Timebase** control to view one pulse of the PCM Encoder module's **FS** output (Tip: $10\mu\text{s/div}$).
 7. Set the **Variable DCV** module's **Variable DC** control to about the middle of its travel.
