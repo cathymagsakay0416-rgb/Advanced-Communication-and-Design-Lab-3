@@ -123,7 +123,7 @@ https://github.com/user-attachments/assets/c2059e15-49ad-40dc-b2a1-22fe10070231
 <img src="./docs/Figure%2012.JPG" alt="Figure 12: Signal Restoration Block Diagram" width="600">
 
 ### Output
-<img src="./images/FIGURE%2011.JPG" alt="Figure 11: Comparator Restoration Setup" width="600">
+<img src="./images/FIGURE 11.jpg" width="600" alt="Expt 14 Figure 11">
 
 35. Compare the original digital signal and the restored digital signal.
 36. Slowly turn the **Variable DCV** module’s **DC Voltage** control fully clockwise and fully anti-clockwise and observe the effect.
