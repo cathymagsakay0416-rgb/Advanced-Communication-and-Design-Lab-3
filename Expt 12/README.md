@@ -97,11 +97,12 @@
 
 ## 📉 Results and Discussion
 
-### Table 1: PCM Encoder’s output code vs input voltage
+### Table 1: 1: PCM Encoder’s output code vs input voltage
 | PCM Encoder's output code | PCM Encoder's input voltage |
 | :--- | :--- |
-| **11111111** | [Insert Measurement] |
-| **00000000** | [Insert Measurement] |
+| **11111111** (Positive Peak) | **+2.50 V** |
+| **10000000** (Mid-point) | **0.00 V** |
+| **00000000** (Negative Peak) | **-2.50 V** |
 
 ---
 
