@@ -26,7 +26,7 @@ This coursework is designed to develop core competencies in hardware interfacing
 | **Expt 11** | Sampling and Reconstruction | [View Lab Report](./Expt-11) |
 | **Expt 12** | PCM Encoding | [View Lab Report](./Expt-12) |
 | **Expt 13** | PCM Decoding | [View Lab Report](./Expt-13) |
-| **Expt 14** | Bandwidth Limiting and Signal Restoration | [View Lab Report](./Expt-14) |
+| **Expt 14** | Bandwidth Limiting and Restoring Digital Signals | [View Lab Report](./Expt-14) |
 | **Expt 15** | Amplitude Shift Keying (ASK) | [View Lab Report](./Expt-15) |
 | **Expt 16** | Frequency Shift Keying (FSK) | [View Lab Report](./Expt-16) |
 | **Expt 17** | Binary Phase Shift Keying (BPSK) | [View Lab Report](./Expt-17) |
