@@ -56,7 +56,7 @@
 <video src="./videos/PART%20C%20-%20Number%2016.mov" width="400" controls></video>
 17. Slowly turn the **Cut-off Frequency** control clockwise until the $2kHz$ sine wave is reconstructed on the oscilloscope.
 ### Output
-<video src="./videos/PART%20C%20-%20Number%2019.mov" width="400" controls></video>
+<video src="Expt-11/videos/PART C - Number 19.mov" width="400" controls></video>
 ### Block Diagram
 
 ![Part C Block Diagram](./docs/Part%20C%20Block%20Diagram.png)
