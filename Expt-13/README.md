@@ -42,6 +42,11 @@ The PCM decoder's clock frequency is crucial. If it is not the same as the encod
 2. Set up the scope per Experiment 1. Ensure **Trigger Source** is CH1 and **Mode** is CH1.
 3. Locate the **PCM Encoder** module and set its **Mode** switch to the **PCM** position.
 4. Connect the set-up shown in Figure 1. (Note: Insert black plugs into GND).
+### Block Diagram
+<img src="./docs/FIGURE 2.JPG" width="500" alt="PCM Encoder Block Diagram">
+
+### Output
+<img src="./images/FIGURE 1 - Page 13-14.jpg" width="600" alt="Part A Setup">
 5. Set the scope's **Slope** control to the "-" position.
 6. Adjust the scope's **Timebase** control to view one pulse of the PCM Encoder module's **FS** output (Tip: $10\mu\text{s/div}$).
 7. Set the **Variable DCV** module's **Variable DC** control to about the middle of its travel.
@@ -52,10 +57,22 @@ The PCM decoder's clock frequency is crucial. If it is not the same as the encod
 12. Locate the **VCO** module and turn its **Frequency Adjust** control fully anti-clockwise.
 13. Set the VCO module's **Range** control to the **LO** position.
 
+### Block Diagram
+<img src="./docs/FIGURE 4.JPG" width="500" alt="Sine Input Block Diagram">
+
+### Output
+<img src="./images/FIGURE 3 - Page 13-6.jpg" width="600" alt="VCO Connection Setup">
+
 ### Part B - Decoding the PCM Data
 14. Return the scope's **Slope** control to the "+" position.
 15. Set the scope's **Mode** control to **CH1** position.
 16. Modify the set-up as shown in Figure 5.
+### Block Diagram
+<img src="./docs/FIGURE 6.JPG" width="500" alt="Full System Block Diagram">
+
+### Output
+<img src="./images/FIGURE 5 PAGE 13-7.jpg" width="600" alt="Decoder Setup">
+
 17. Adjust the scope's **Timebase** control to view two or so cycles of the message.
 18. Set the scope's **Mode** control to the **DUAL** position to view the PCM Decoder module's output as well as the message signal.
 19. Add the **Buffer** module to the set-up as shown in Figure 7 leaving scope connections as they are.
@@ -78,6 +95,8 @@ The PCM decoder's clock frequency is crucial. If it is not the same as the encod
 32. Turn the Tuneable Low-pass Filter module's **Cut-off Frequency Adjust** control fully anti-clockwise.
 33. Disconnect the plugs to the **Speech** module's output.
 34. Modify the set-up as shown in Figure 10.
+### BLock Diagram
+<img src="./docs/FIGURE 11.JPG" width="500" alt="Reconstruction Block Diagram">
 35. Slowly turn the **Cut-off Frequency** control clockwise and stop the moment the message signal has been reconstructed (ignoring phase shift).
 36. Add the **Buffer** module as shown in Figure 12.
 37. Turn the Buffer module's **Gain** control fully anti-clockwise.
