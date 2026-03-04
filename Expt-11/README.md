@@ -47,8 +47,14 @@
 ### Part C: Reconstructing a Sampled Message
 14. Return the **Timebase** to **0.1ms/div** and reconnect the $2kHz$ SINE message.
 15. Set the **Tuneable LPF** module's **Gain** to the middle and turn the **Cut-off Frequency Adjust** fully anti-clockwise.
-16. Connect the output of the **Sample-and-Hold** circuit to the **IN** of the **Tuneable LPF**.
-17. Slowly turn the **Cut-off Frequency** control clockwise until the $2kHz$ sine wave is reconstructed on the oscilloscope.
+
+### Output
+
+https://github.com/user-attachments/assets/c3aab2bd-853b-476e-81cc-0b1177f33441
+
+
+17. Connect the output of the **Sample-and-Hold** circuit to the **IN** of the **Tuneable LPF**.
+18. Slowly turn the **Cut-off Frequency** control clockwise until the $2kHz$ sine wave is reconstructed on the oscilloscope.
 
 ### Block Diagram
 
@@ -66,6 +72,12 @@
 ---
 
 ## 📉 Results and Discussion
+
+### Waveform Outputs
+| Part A: Sampling | Part B: Speech | Part D: Aliasing |
+| :---: | :---: | :---: |
+| ![Part A Output](./images/Part%20A%20Output.png) | ![Part B Output](./images/Part%20B%20Output.png) | ![Part D Output](./images/Part%20D%20Output.png) |
+
 In Part A, the experiment demonstrated that sampling converts a continuous signal into a series of pulses. Natural sampling maintains the original signal's shape during the "on" time, whereas Sample-and-Hold maintains a constant voltage level for the duration of the sample. 
 
 The reconstruction phase in Part C showed that a low-pass filter can successfully recover the original message by rejecting high-frequency sampling components. However, Part D confirmed that if the sampling rate is too low—specifically below the Nyquist rate of $4kHz$ for a $2kHz$ signal—aliasing occurs. This creates frequency components that overlap with the original message, causing irreversible distortion.
