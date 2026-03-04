@@ -53,10 +53,10 @@ Imagine the difficulty a digital receiver circuit such as a PCM decoder would ha
 8. Connect the set-up where the PCM Encoder module’s **PCM DATA** output is connected to the PCM Decoder module’s **PCM DATA** input.
 
 ### Block Diagram
-<img src="./Expt-14/docs/Figure%204%20(1).JPG" alt="Figure 4: PCM Encoding/Decoding Block Diagram" width="600">
+<img src="./docs/Figure%204%20(1).JPG" alt="Figure 4: PCM Encoding/Decoding Block Diagram" width="600">
 
 ### Ouput
-<img src="./Expt-14/images/FIGURE%204.JPG" alt="Figure 4: Initial PCM Setup" width="600">
+<img src="./images/FIGURE%204.JPG" alt="Figure 4: Initial PCM Setup" width="600">
 
 9. Vary the **Variable DCV** module’s **VDC** control left and right.
 10. Locate the **Tuneable Low-pass Filter** module and set its **Gain** control to about the middle of its travel.
@@ -64,7 +64,7 @@ Imagine the difficulty a digital receiver circuit such as a PCM decoder would ha
 12. Modify the set-up so that the low-pass filter is inserted between the PCM Encoder and PCM Decoder.
 
 ### Block Diagram
-<img src="./Expt-14/docs/Figure%206.JPG" alt="Figure 6: Bandwidth Limited Channel Model" width="600">
+<img src="./docs/Figure%206.JPG" alt="Figure 6: Bandwidth Limited Channel Model" width="600">
 
 ### Output
 https://github.com/user-attachments/assets/c2059e15-49ad-40dc-b2a1-22fe10070231
@@ -87,10 +87,10 @@ https://github.com/user-attachments/assets/c2059e15-49ad-40dc-b2a1-22fe10070231
 22. Connect the set-up where the Sequence Generator output passes through the Tuneable Low-pass Filter.
 
 ### Block Diagram
-<img src="./Expt-14/docs/Figure%208.JPG" alt="Figure 8: Digital Signal Modeling Diagram" width="600">
+<img src="./docs/Figure%208.JPG" alt="Figure 8: Digital Signal Modeling Diagram" width="600">
 
 ### Output
-<img src="./Expt-14/docs/Figure%208.JPG" alt="Figure 8: Digital Signal Modeling Diagram" width="600">
+<img src="./images/FIGURE%207.JPG" alt="Figure 7: Sequence Generator Connection" width="600">
 
 23. Set the scope's **Timebase** control to the **1ms/div** position to view about twenty bits of data.
 24. Set the scope's **Mode** control to the **DUAL** position and compare the signals.
@@ -104,6 +104,10 @@ https://github.com/user-attachments/assets/c2059e15-49ad-40dc-b2a1-22fe10070231
 27. Turn the **VCO** module’s **Frequency Adjust** control to about a quarter of its travel.
 28. Set the **VCO** module’s **Range** control to the **LO** position.
 29. Modify the set-up so that the Sequence Generator module’s clock is provided by the VCO module’s **DIGITAL** output.
+
+### Block Diagram
+<img src="./docs/Figure%2010.JPG" alt="Figure 10: Variable Bit-Rate Modeling" width="600">
+
 30. If the scope’s display is unstable, adjust the VCO frequency slightly until it settles.
 31. Continue turning the **VCO** module’s **Frequency Adjust** control clockwise to increase the transmission bit-rate while observing the scope display.
 
@@ -114,6 +118,13 @@ https://github.com/user-attachments/assets/c2059e15-49ad-40dc-b2a1-22fe10070231
 32. Set the scope’s **Timebase** control to the **0.5ms/div** position.
 33. Set the **Variable DCV** module’s **Variable DC** control to about the middle of its travel.
 34. Insert the comparator from the **Utilities** module after the Tuneable Low-pass Filter.
+
+### Block Diagram
+<img src="./docs/Figure%2012.JPG" alt="Figure 12: Signal Restoration Block Diagram" width="600">
+
+### Output
+<img src="./Expt-14/images/FIGURE%2011.JPG" alt="Figure 11: Comparator Restoration Setup" width="600">
+
 35. Compare the original digital signal and the restored digital signal.
 36. Slowly turn the **Variable DCV** module’s **DC Voltage** control fully clockwise and fully anti-clockwise and observe the effect.
 37. Return the **Variable DCV** control to about the middle of its travel.
