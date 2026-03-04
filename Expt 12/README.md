@@ -34,7 +34,7 @@
 9. Adjust the scope's **Variable Sweep** control until the FS signal matches the required reference.
 
 ### Output
-<img src="./images/images/PAGE%2012-6%20FIG%204.JPG" alt="Figure 4" width="600">
+<img src="./images/PAGE%2012-6%20FIG%204.JPG" alt="Figure 4" width="600">
 10. Set the scope's **Mode** control to the **DUAL** position to view the PCM Encoder module’s **CLK** input as well as its **FS** output.
 11. Draw the two waveforms to scale, leaving enough room for a third digital signal.
 12. Connect the scope's **Channel 2** input to the PCM Encoder module's output.
@@ -45,10 +45,10 @@
 13. Draw the resulting waveform (10 bits of data) to scale on the graph paper.
 
 ### Block Diagram
-![Part A Block Diagram](./docs/FIGURE%203%20PAGE%2012-5.JPG)
 
-![Part A 2 Block Diagram](./docs/FIGURE%206%20Page%2012-7.JPG)
+<img src="./docs/FIGURE%203%20PAGE%2012-5.JPG" alt="Part A Block Diagram" width="600">
 
+<img src="./docs/FIGURE%206%20Page%2012-7.JPG" alt="Part A 2 Block Diagram" width="600">
 
 ### Part B: PCM encoding of a variable DC voltage
 14. Set the scope's **Mode** control to the **CH1** position.
@@ -74,7 +74,7 @@
 32. Measure and record this value in Table 1.
 
 ### Block Diagram
-![Part B Block Diagram](./docs/FIGURE%208.JPG)
+<img src="./docs/FIGURE%208.JPG" alt="Part B Block Diagram" width="600">
 
 ### Part C: Quantisation
 33. Return to the basic variable DC setup and set the control to the middle of its travel.
@@ -89,7 +89,7 @@
 40. Connect the setup where the VCO clocks the PCM Encoder and a sinewave is applied to the input.
 41. Set the scope's **Timebase** control to the **50µs/div** position.
 ### Output
-<img src="./images/Expt%2012/images/FIGURE%209%20-%20Page%2012-16.JPG" alt="Figure 9" width="600">
+<img src="./images/FIGURE%209%20-%20Page%2012-16.JPG" alt="Figure 9" width="600">
 42. Watch the PCM Encoder module's **PCM DATA** output change continuously on the scope.
 43. Return the scope's **Variable Sweep** control to the locked position.
     
