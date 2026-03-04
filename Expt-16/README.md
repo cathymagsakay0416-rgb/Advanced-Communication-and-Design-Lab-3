@@ -50,10 +50,10 @@ FSK is highly resistant to noise because most noise affects amplitude rather tha
    - The **VCO OUT** connects to Scope **Channel 2**.
 
 ### Block Diagram
-<img src="./docs/FIGURE 3.JPG" width="600" alt="Expt 15 Figure 3">
+<img src="./docs/FIGURE 3 (1).JPG" width="600" alt="Expt 16 Figure 3">
 
 ### Output
-<img src="./images/FIGURE 2.JPG" width="600" alt="Expt 15 Figure 2">
+<img src="./images/FIGURE 2 (1).jpg" width="600" alt="Expt 16 Figure 2">
 
 11. Set the scope’s **Timebase** control to **0.5ms/div**.
 12. Set the scope’s **Mode** control to the **DUAL** position to view both the digital signal and the FSK signal.
@@ -69,21 +69,19 @@ FSK is highly resistant to noise because most noise affects amplitude rather tha
 17. Modify the set-up by routing the **VCO OUT** through the **Tuneable Low-pass Filter**.
 
 ### Block Diagram
-<img src="./docs/FIGURE 5.JPG" width="600" alt="Expt 15 Figure 5">
+<img src="./docs/FIGURE 5 (1).JPG" width="600" alt="Expt 16 Figure 5">
 
 ### Output
-<img src="./images/FIGURE 4 (2).JPG" width="600" alt="Expt 15 Figure 4">
+<img src="./images/FIGURE 4 (3).jpg" width="600" alt="Expt 16 Figure 4">
 
 18. Slowly turn the LPF **Cut-off Frequency Adjust** control counter-clockwise until the higher frequency component of the FSK signal is suppressed.
 19. Compare the original digital signal with the filter’s output.
 20. Modify the set-up by adding the **Rectifier** after the filter to form an envelope detector.
 21. Connect Scope **Channel 2** to the envelope detector output.
 
-### Block Diagram
-<img src="./docs/FIGURE 7 (1).JPG" width="600" alt="Expt 15 Figure 7">
 
 ### Output
-<img src="./images/FIGURE 6 (1).JPG" width="600" alt="Expt 15 Figure 6">
+<img src="./images/FIGURE 7 (2).JPG" width="600" alt="Expt 16 Figure 7">
 
 22. Compare the original digital signal with the recovered signal.
 
@@ -94,10 +92,10 @@ FSK is highly resistant to noise because most noise affects amplitude rather tha
 23. Modify the set-up by connecting the envelope detector output to the **Comparator IN**.
 
 ### Block Diagram
-<img src="./docs/FIGURE 9.JPG" width="600" alt="Expt 15 Figure 9">
+<img src="./docs/FIGURE 9 (1).JPG" width="600" alt="Expt 16 Figure 9">
 
 ### Output
-<img src="./images/FIGURE 8 (1).jpg" width="600" alt="Expt 15 Figure 8">
+<img src="./images/FIGURE 8 (2).JPG" width="600" alt="Expt 16 Figure 8">
 
 24. Observe and note the amplitude of the filtered signal (varies between 0V and a maximum value).
 25. Set the **Variable DCV** module’s output to approximately half of the maximum amplitude noted in step 24 and connect it to the **Comparator REF** input.
