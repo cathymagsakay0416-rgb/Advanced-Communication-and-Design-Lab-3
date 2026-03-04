@@ -95,8 +95,11 @@ The PCM decoder's clock frequency is crucial. If it is not the same as the encod
 32. Turn the Tuneable Low-pass Filter module's **Cut-off Frequency Adjust** control fully anti-clockwise.
 33. Disconnect the plugs to the **Speech** module's output.
 34. Modify the set-up as shown in Figure 10.
-### BLock Diagram
+### Block Diagram
 <img src="./docs/FIGURE 11.JPG" width="500" alt="Reconstruction Block Diagram">
+
+### Output
+<img src="./images/PART D FIGURE 10.jpg" width="600" alt="Output">
 35. Slowly turn the **Cut-off Frequency** control clockwise and stop the moment the message signal has been reconstructed (ignoring phase shift).
 36. Add the **Buffer** module as shown in Figure 12.
 37. Turn the Buffer module's **Gain** control fully anti-clockwise.
