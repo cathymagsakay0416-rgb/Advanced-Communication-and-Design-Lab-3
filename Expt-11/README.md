@@ -30,7 +30,7 @@
 8. **Natural Sampling:** Observe the waveform where the pulses follow the shape of the message signal.
 9. **Sample-and-Hold:** Modify the set-up to use the S/H circuit (Figure 4) and observe the resulting waveform.
 
-
+![Part A Block Diagram](./docs/Part%20A%20Block%20Diagram.png)
 
 ### Part B: Sampling Speech
 10. Disconnect the plugs from the **Master Signals** $2kHz$ SINE output.
