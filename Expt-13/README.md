@@ -3,7 +3,7 @@
 ## 🎯 Objectives
 * To observe the process of converting a PCM data stream back into a Pulse Amplitude Modulation (PAM) signal.
 * To understand the critical role of **clock and frame synchronization** in digital decoding.
-* To reconstruct original message and speech signals using a tuneable low-pass filter.
+* To reconstruct the original message and speech signals using a tuneable low-pass filter.
 
 ---
 
